@@ -1,0 +1,45 @@
+td {
+    background-image: url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fnoise.png);
+    text-align: center;
+}
+
+th {
+    background-image: url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg?1527763317245);
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    border:1px solix, #800080;
+    
+            
+
+    
+}
+
+table {
+    border-collapse: collapse;
+    border:1px solix, #800080;
+    border: #800080;
+    width: 50%;
+}
+
+ tr:nth-child(even){
+    background: #e495e4;
+    width: 50%;
+}
+
+tr:nth-child(odd){
+    background: #ff33cc;
+}
+
+tfoot td {
+    background-image: url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg?1527763317245);
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    
+}
+P {
+    color: black;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+}
