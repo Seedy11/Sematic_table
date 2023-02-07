@@ -1,6 +1,7 @@
 td {
     background-image: url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fnoise.png);
     text-align: center;
+    padding: 1rem;
 }
 h2 {
     text-align: right;
@@ -11,6 +12,8 @@ th {
     font-family: 'Rock Salt', cursive;
     text-align: center;
     border:1px solid, #800080;
+    padding-top: 5px;
+    padding: 1rem;
 
 }
 
@@ -18,16 +21,21 @@ table {
     border-collapse: collapse;
     border:1px solid, #800080;
     border: #800080;
-    /* width: 100%; */
+    padding-top: 5px;
+    border-spacing: 2px;
+     
 }
 
  tr:nth-child(even){
     background: #e495e4;
+    width: 60px;
     
 }
 
 tr:nth-child(odd){
     background: #ff33cc;
+    padding: 10px;
+
 }
 
 tfoot td {
@@ -35,18 +43,21 @@ tfoot td {
     color: white;
     font-family: 'Rock Salt', cursive;
     text-align: right;
+    padding-top: 5px;
     
 }
 P {
     color: black;
     font-family: 'Rock Salt', cursive;
     text-align: center;
+
 }
  body {
-    margin: 5rem;
+    padding-top: 5rem;
+    
  }
  footer {
-    margin: 2rem 0;
+    padding-top: 2rem 0;
     text-align: right;
     font-size: 0.7rem;
  }
