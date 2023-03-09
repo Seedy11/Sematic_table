@@ -2,49 +2,63 @@ td {
     background-image: url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fnoise.png);
     text-align: center;
     padding: 1rem;
+    
 }
 h2 {
     text-align: right;
 }
 th {
-    background-image: url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg?1527763317245);
     color: white;
     font-family: 'Rock Salt', cursive;
     text-align: center;
-    border:1px solid, #800080;
-    padding-top: 5px;
+    padding: 5px 10px;
     padding: 1rem;
-
+    border:2px solid #800080;
+}
+.backgroundImage {
+    background-image: url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg?1527763317245);
 }
 
 table {
     border-collapse: collapse;
-    border:1px solid, #800080;
-    border: #800080;
-    padding-top: 5px;
-    border-spacing: 2px;
-     
+    background-image: url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg?1527763317245) !important;
+    font-weight: bold;
 }
 
- tr:nth-child(even){
+.color2{
     background: #e495e4;
     width: 60px;
     
 }
 
-tr:nth-child(odd){
-    background: #ff33cc;
+.color1{
+    background: #ff33cc; 
     padding: 10px;
 
 }
 
 tfoot td {
-    background-image: url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg?1527763317245);
+    border-right:2px solid #800080;
     color: white;
     font-family: 'Rock Salt', cursive;
     text-align: right;
     padding-top: 5px;
-    
+  
+}
+.noBorder{
+    border: none;
+}
+tfoot tr {
+    border:2px solid #800080;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    text-align: right;
+    padding-top: 5px;
+  
+}
+tfoot th {
+     border: none;
+
 }
 P {
     color: black;
